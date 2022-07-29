@@ -19,7 +19,7 @@ The R scripts are divided according to the Module (9 or 12), feel free to follow
 
 * **SISG_M9_Lab5:**  This script gives a short example on how to perform a QTL mapping analysis.
 
-## Module 12 - MIXED MODELS IN QUANTITATIVE GENETICS
+## Module 12 - MIXED MODELS IN QUANTITATIVE GENETICS  
 
 * **SISG_M12_Lab1:** Some basic commands to perform different matrix operations in R.
 
@@ -29,7 +29,7 @@ The R scripts are divided according to the Module (9 or 12), feel free to follow
 
 * **SISG_M12_Lab4:** This script gives some examples on how to perform a Genomic Prediction Analysis in R. The main package used is the [BGLR](https://cran.r-project.org/web/packages/BGLR/BGLR.pdf)
 
-  
+* **SISG_M12_Lab5:** This script gives some examples on how to perform a Genome Wide Association Study (GWAS) in R. Different strategies of data correction are used to compare the influence on the results. The main package for this Lab is the [gaston](https://cran.r-project.org/web/packages/gaston/gaston.pdf).
 
 
 
