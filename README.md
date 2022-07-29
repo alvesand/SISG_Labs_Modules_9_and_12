@@ -4,7 +4,7 @@ This repository stores the R scripts for the modeules 9 (Quantitative Genetics) 
 
 # **About the R labs**
 
-The R scripts are divided according to the Module (9 or 12), feel free to follow along all scripts and try to understand every piece of code that you are running. Make sure to download every package needed for the labs, also, please remember to change the working directory when necessary. To download the files go to the green tab Code -> Download ZIP
+The R scripts are divided according to the Module (9 or 12), feel free to follow along all scripts and try to understand every piece of code that you are running. Make sure to download every package needed for the labs, also, please remember to change the working directory when necessary. To download the files go to the green tab Code -> Download ZIP.    
 **Discousure:** The R scripts and this README document come with **no** warranty and are not free of potential bugs and typos. Feel free to communicate us any potential issue.   
 
 ## Module 9 - QUANTITATIVE GENETICS   
