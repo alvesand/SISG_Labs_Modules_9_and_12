@@ -5,7 +5,7 @@ This repository stores the R scripts for the modeules 9 (Quantitative Genetics) 
 # **About the R labs**
 
 The R scripts are divided according to the Module (9 or 12), feel free to follow along all scripts and try to understand every piece of code that you are running. Make sure to download every package needed for the labs, also, please remember to change the working directory when necessary.
-**Discousure:** The scripts come with **no** warranty and are not free of potential bugs and typos. Feel free to communicate us any potential issue.   
+**Discousure:** The R scripts and this README document come with **no** warranty and are not free of potential bugs and typos. Feel free to communicate us any potential issue.   
 
 ## Module 9 - QUANTITATIVE GENETICS   
 
@@ -27,10 +27,19 @@ The R scripts are divided according to the Module (9 or 12), feel free to follow
 
 * **SISG_M12_Lab3:** This scripts gives some examples on how to perform a complete mixed model analysis in R. The following animal model is assumed: y = Xb + Zu + e.
 
-* **SISG_M12_Lab4:** This script gives some examples on how to perform a Genomic Prediction Analysis in R. The main package used is the [BGLR](https://cran.r-project.org/web/packages/BGLR/BGLR.pdf)
+* **SISG_M12_Lab4:** This script gives some examples on how to perform a Genomic Prediction Analysis in R. The main package used is the [BGLR](https://cran.r-project.org/web/packages/BGLR/BGLR.pdf).
 
 * **SISG_M12_Lab5:** This script gives some examples on how to perform a Genome Wide Association Study (GWAS) in R. Different strategies of data correction are used to compare the influence on the results. The main package for this Lab is the [gaston](https://cran.r-project.org/web/packages/gaston/gaston.pdf).
 
+# **About the data used**
+
+Some Labs use external dataset that are provided in this repository. The Necessary datasets are:
+
+* **beetle data.txt**: A txt data containing the pedigree information (Sire, Dam, Progeny), the trait observation (value) and the trait identification. The dataset contains two traits: fec and mass. 
+
+* **IntMap.csv**: This is a csv document containing the data generated for a backcross scheme. The first row contains the information about the phenotype, sex and the markers identification. The second row indicates the chromosome ID. Third row indicates the marker position. The genotypes are coded as A (homozygous animals) and H (Heterozygous animals), sex is coded as 0 (Male) and 1 (female).  
+
+* **ysim** 
 
 
 
