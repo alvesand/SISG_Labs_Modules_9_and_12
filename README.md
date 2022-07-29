@@ -39,7 +39,7 @@ Some Labs use external dataset that are provided in this repository. The Necessa
 
 * **IntMap.csv**: This is a csv document containing the data generated for a backcross scheme. The first row contains the information about the phenotype, sex and the markers identification. The second row indicates the chromosome ID. Third row indicates the marker position. The genotypes are coded as A (homozygous animals) and H (Heterozygous animals), sex is coded as 0 (Male) and 1 (female).  
 
-* **ysim** 
+* **ysim**: A dataset simulated with the function created with SISG_M9_Lab3:  
 
 
 
