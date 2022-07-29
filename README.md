@@ -37,9 +37,26 @@ Some Labs use external dataset that are provided in this repository. The Necessa
 
 * **beetle data.txt**: A txt data containing the pedigree information (Sire, Dam, Progeny), the trait observation (value) and the trait identification. The dataset contains two traits: fec and mass. 
 
-* **IntMap.csv**: This is a csv document containing the data generated for a backcross scheme. The first row contains the information about the phenotype, sex and the markers identification. The second row indicates the chromosome ID. Third row indicates the marker position. The genotypes are coded as A (homozygous animals) and H (Heterozygous animals), sex is coded as 0 (Male) and 1 (female).  
+* **IntMap.csv**: This is a csv document containing the data generated for a simulated backcross scheme with N = 400 animals. For more information please refer to [Broman and Sen (2009)](https://link.springer.com/book/10.1007/978-0-387-92125-9). The first row contains the information about the phenotype, sex and the markers identification. The second row indicates the chromosome ID. Third row indicates the marker position (cM). The genotypes are coded as A (homozygous animals) and H (Heterozygous animals), sex is coded as 0 (Male) and 1 (female).  
 
-* **ysim**: A dataset simulated with the function created with SISG_M9_Lab3:  
+* **ysim.txt**: A dataset simulated by the function created with SISG_M9_Lab3. The following arguments were used: h2=0.3, i_m = 0.1, i_f = 0.5, ngen = 10, mu = 396, vare = 550, seed = 182.  
+
+* **EM_algorithm.R**: This extra R script illustrate how to program an algorithm for variance component estimation from scratch. The programmed algorithm is the EM (Expectation Maximization) that uses the REML (Restricted Maximum Likelihehood) as estimation method. 
+
+* **pheno.txt:** A simulated dataset containing the animal ID, Sex, and observed value (N = 4000). 
+
+* **PED.txt:** The pedigree data for pheno.txt (11,000 animals in the pedigree)
+
+* **GEN.txt:** The genotype data for pheno.txt. Includes the genotype information for the animals 110001 to 111000 (the last 1000 animals in PED.txt). The animals are genotyped for 5000 SNP markers. The AA, AB, and BB genotypes are coded as 0, 1 and 2, respectively. 
+
+* **phenotype.txt:** This dataset contains the animal ID and 10 simulated traits. All traits are uncorrelated and have different genomic regions affecting them. 
+
+* **genotype.txt:** The genotypes for animals in *phenotype.txt* each column gives the animals' full genotype. The animals' ID are given in the columns of the first row. There are 14,500 genotyped loci for 1,000 animals. 
+
+* **snp_map.txt:** the map information for the *genotype.txt* file. This archive contains three columns: SNP (the SNP ID), Chromosome (The Chromosome ID), Position (THe position in base pairs). 
+
+
+
 
 
 
