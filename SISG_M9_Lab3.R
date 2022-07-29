@@ -10,9 +10,9 @@ library(pedigree)
 
 #Run all code from line 10 to line 164 together
 #Let's do the simulation within a function to avoid unnecessary data at end of the process
-sim_fun = function(h2, i_m, i_f, ngen, mu = mu, vare){
+sim_fun = function(h2, i_m, i_f, ngen, mu = mu, vare, seed){
   #-------------- Set the population parameters ----------------------------------#
-  set.seed(182) # Set a seed for reproducibility sake
+  set.seed(seed) # Set a seed for reproducibility sake
   mu = mu #Global mean
   sol_sex = c(25, -25) #Sex effects
   nsire = 20 #number of sires on the base population
@@ -168,7 +168,7 @@ sim_fun = function(h2, i_m, i_f, ngen, mu = mu, vare){
 #The overall mean will be 396.4 and the residual variance 550
 #The trait will be selected for 10 generations
 
-ysim = sim_fun(h2=0.3, i_m = 0.1, i_f = 0.5, ngen = 10, mu = 396, vare = 550)
+ysim = sim_fun(h2=0.3, i_m = 0.1, i_f = 0.5, ngen = 10, mu = 396, vare = 550, seed = 182)
 
 #-----------------------------------------
 #Some sanity checks

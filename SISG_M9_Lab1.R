@@ -1,6 +1,6 @@
 #############################################################################
-#This script illustrates how the pictures in pages 43 and 44 can be obtained 
-#Those plots depict the additive and dominance variance in function of the
+#This script illustrates how the pictures in pages 43 and 44 from IntroQG-seattle-2022-Lecture01_0
+#can be obtained. Those plots depict the additive and dominance variance in function of the
 #allele frequencies for a single locus
 #According to Falconer & Mackay (1996) the additive and dominance variances
 #for a single locus a given by VA = 2pq(a + d(q-p))^2 and (2pqd)^2
